@@ -1,0 +1,103 @@
+.bagroundimg{
+    background-image: url(./Gallery/bagckgroundimagenagtibba.jpeg);
+    height: 700px;
+    width: 100;
+    margin: 0;
+    margin-left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+div nav div a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+div ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.textheading{
+    text-align: center;
+    justify-content: space-around;
+    justify-content: center;
+    padding-top: 80px;
+    height: 650px;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 10px;
+    font-weight: 700;
+    font-size: 500%;
+    color: rgb(5, 5, 5);  
+}
+.makebold{
+    font-weight: 900;
+}
+.buttonheading{
+   padding-left: 47%;
+   margin-top: -18%;
+}
+.titles{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.typeofdestinations{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    margin: 4%;
+}
+.cardsdesign{
+    align-items: center;
+    margin: 4%;
+}
+.slidehome{
+    margin: 12%;
+    margin-top: 1%;
+}
+div.gallery {
+    margin: 5%;
+    border: 3px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 6px solid #a0a0a0;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
